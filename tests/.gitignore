@@ -1,0 +1,14 @@
+.vscode
+
+# example files
+cypress/e2e/2-advanced-examples/*
+
+# dependencies
+node_modules/
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
