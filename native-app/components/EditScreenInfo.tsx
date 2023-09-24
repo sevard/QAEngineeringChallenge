@@ -25,6 +25,7 @@ export default function EditScreenInfo({path}: {path: string}) {
   ];
 
   const partNames = [
+    {value: 'errorRate', label: 'Error Rate'},
     {value: 'arcStability', label: 'Arc Stability'},
     {
       value: 'coolingEfficiency',

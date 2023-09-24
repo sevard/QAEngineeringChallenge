@@ -4,7 +4,6 @@ class TwoPage {
         getPartNameDropDown: () => cy.get(':nth-child(4) > [data-testid="web_picker"]'),
         getPartValueInput: () => cy.get('.css-textinput-11aywtz'),
         getSaveBtn: () => cy.get(':nth-child(2) > .r-transitionProperty-1i6wzkk > .css-text-146c3p1'),
-        getMachineStateLink: () => cy.get('[href="/"] > .r-maxWidth-dnmrzs'),
     }
 
     selectMachineName (value) {
@@ -25,10 +24,6 @@ class TwoPage {
 
     clickSaveButton() {
         this.elements.getSaveBtn().click();
-    }
-
-    clickMachineStateLink() {
-        this.elements.getMachineStateLink().click();
     }
 }
 
