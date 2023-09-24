@@ -1,9 +1,9 @@
 /// <reference types="cypress" />
 
-import { header } from "../../components/header";
-import { footer } from "../../components/footer";
-import { indexPage } from "../../components/index-page";
-import { twoPage } from "../../components/two-page";
+import { header } from "../../pageobjects/header";
+import { footer } from "../../pageobjects/footer";
+import { indexPage } from "../../pageobjects/index-page";
+import { twoPage } from "../../pageobjects/two-page";
 
 describe('Welding Robots', () => {
   beforeEach(() => {
